@@ -5,6 +5,6 @@
     <title>Aplicação de Teste</title>
 </head>
 <body>
-    <h1> Aplicação no ar v.1.2</h1>
+    <h1> Aplicação no ar v.1.3</h1>
 </body>
 </html>
