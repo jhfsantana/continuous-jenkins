@@ -1,0 +1,81 @@
+24-Mar-2018 11:17:16.633 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+24-Mar-2018 11:17:23.855 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+24-Mar-2018 11:17:28.419 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'grailsDispatcherServlet'
+24-Mar-2018 11:17:28.679 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2018 11:17:28.680 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2018 11:17:28.681 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@715d7e94')
+24-Mar-2018 11:17:28.725 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2018 11:17:28.725 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2018 11:17:28.735 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'grailsDispatcherServlet'
+24-Mar-2018 11:17:28.735 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Mar-2018 11:17:54.893 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+24-Mar-2018 11:18:00.915 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+24-Mar-2018 11:18:04.920 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'grailsDispatcherServlet'
+24-Mar-2018 11:18:05.114 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2018 11:18:05.115 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2018 11:18:05.115 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5bb0e946')
+24-Mar-2018 11:21:56.283 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2018 11:21:56.283 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2018 11:21:56.296 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'grailsDispatcherServlet'
+24-Mar-2018 11:21:56.296 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Mar-2018 11:24:05.650 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+24-Mar-2018 11:24:11.730 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+24-Mar-2018 11:24:15.695 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'grailsDispatcherServlet'
+24-Mar-2018 11:24:15.939 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2018 11:24:15.939 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2018 11:24:15.940 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@61e9adc0')
+24-Mar-2018 13:50:13.239 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'grailsDispatcherServlet'
+24-Mar-2018 13:50:13.242 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+24-Mar-2018 13:50:16.712 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class org.springframework.boot.web.support.SpringBootServletInitializer$1
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /Users/jorgesantana/projetos/jenkins/apache-tomcat-8.0.50/webapps/jenkins-app-0.1/WEB-INF/lib/tomcat-jdbc-8.5.15.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:265)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:2541)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2377)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:855)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1304)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1163)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4906)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5545)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:849)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1429)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1355)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1615)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1168)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: /Users/jorgesantana/projetos/jenkins/apache-tomcat-8.0.50/webapps/jenkins-app-0.1/WEB-INF/lib/tomcat-jdbc-8.5.15.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:170)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:155)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:316)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+	... 26 more
+
+24-Mar-2018 13:50:16.766 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2018 13:50:16.766 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2018 13:50:22.340 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2018 13:50:22.340 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2018 13:50:22.341 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@664799cf')
+24-Mar-2018 13:52:27.094 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+24-Mar-2018 13:52:34.136 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+24-Mar-2018 13:52:38.171 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'grailsDispatcherServlet'
+24-Mar-2018 17:30:54.676 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2018 17:30:54.676 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2018 17:30:55.692 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'grailsDispatcherServlet'
+24-Mar-2018 17:30:55.693 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
